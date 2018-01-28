@@ -1,5 +1,5 @@
 *.iml
-.gradle
+*.gradle
 /local.properties
 /.idea
 /.idea/workspace.xml
@@ -8,4 +8,8 @@
 /build
 /captures
 .externalNativeBuild
-/app/build
+gradle.properties
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+gradlew
+gradlew.bat
