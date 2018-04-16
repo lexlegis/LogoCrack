@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">LogoCrack</string>
+
+    <string name="enter_competitive_button_text">Competitive mode (coming soon)</string>
+    <string name="enter_solo_button_text">Solo mode</string>
+    <string name="high_scores_button_text">High Scores (coming soon)</string>
+    <string name="statistics_button_text">Statistics</string>
+    <string name="options_button_text">Options</string>
 </resources>

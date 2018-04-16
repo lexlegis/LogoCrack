@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,10 +9,47 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_alignParentTop="true"
+        android:text="Main Activity"/>
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/EnterCompetitiveButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/enter_competitive_button_text"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/EnterSoloButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/enter_solo_button_text"/>
+
+    <Button
+        android:id="@+id/HighScoresButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/high_scores_button_text"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/StatisticsButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/statistics_button_text"/>
+
+    <Button
+        android:id="@+id/OptionsButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/options_button_text"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
